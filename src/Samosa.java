@@ -1,5 +1,6 @@
-public class Samosa {
-    private static Samosa samosa;
+public enum Samosa {
+    INSTANCE
+    /*private static Samosa samosa;
     private Samosa(){
         if(samosa != null){
             throw new RuntimeException("You are trying to break Singleton design");
@@ -15,5 +16,5 @@ public class Samosa {
              }
          }
         return samosa;
-    }
+    }*/
 }

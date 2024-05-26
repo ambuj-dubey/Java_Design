@@ -5,7 +5,7 @@ import java.lang.reflect.Constructor;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        Samosa s1 = Samosa.getSamosa();
+        Samosa s1 = Samosa.INSTANCE;
         System.out.println(s1.hashCode());
 
         Constructor<Samosa> constructor = Samosa.class.getDeclaredConstructor();
